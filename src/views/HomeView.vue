@@ -6,8 +6,9 @@ const router = useRouter()
 const breed = ref('')
 
 function search() {
-  if (breed.value.trim()) {
-    router.push({ name: 'breed', params: { breed: breed.value } })
+  const breedName = breed.value.trim().toLowerCase()
+  if (breedName) {
+    router.push({ name: 'breed', params: { breed: breedName } })
   }
 }
 </script>
