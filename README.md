@@ -106,8 +106,8 @@ Após terminar o passo a passo anterior, o próprio node.js vai informar os coma
 <img width="455" height="100" alt="image" src="https://github.com/user-attachments/assets/f20ccb41-f738-4f8b-9223-30bcfa8d08ee" />
 
 
-Digite “ cd <nome do seu projeto>” para acessar a pasta do seu projeto recém criado
-Digite **npm install** para para instalar as dependências (a lista de dependências fica no arquivo package.json);
+Digite “ cd <nome do seu projeto>” para acessar a pasta do seu projeto recém criado  
+Digite **npm install** para para instalar as dependências (a lista de dependências fica no arquivo package.json)  
 Digite “npm run dev” para executar o projeto.
 
 <img width="615" height="384" alt="image" src="https://github.com/user-attachments/assets/c8ec2ffd-c6cc-4e7f-a7dc-91a244d73c36" />
