@@ -5,7 +5,7 @@
 
   const route = useRoute()
 
-  const dogs = ref([])
+  const dogs = ref<string[]>([])
 
   async function getDogs() {
     const nome = route.query.breed as string
@@ -13,9 +13,13 @@
     if (!nome) return
 
     dogs.value = await getDogsByBreed(nome)
+    console.log(dogs.value)
+    return dogs.value
+    
   }
 
   getDogs()
+
 </script>
 
 <template>
@@ -32,7 +36,6 @@
       :key="index"
       :src="img"
     />
-    <img src="https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg" alt="">
   </main>
 </template>
 
