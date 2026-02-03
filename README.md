@@ -1,44 +1,27 @@
-# vue-project
+# Vue.js DOG API
 
-This template should help get you started developing with Vue 3 in Vite.
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 
-## Recommended IDE Setup
+> A aplicação tem como finalidade a utilização do Framework Vue.js para a construção de um website que consuma a Dog API.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# Vue.js
 
-## Recommended Browser Setup
+## O que é?:
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Vue.js é um [framework JavaScript](https://www.alura.com.br/artigos/angular-vs-react-vs-vue-js#frameworks-javascript) progressivo usado para criar interfaces de usuário (UI) e aplicações web SPA ([_Single Page Applications_](https://www.hipsters.tech/single-page-applications-hipsters-16/)).
 
-## Customize configuration
+Surgiu na China e foi Criado por Evan You, procurando uma experiêcia melhor do que os frameworks que estava usando na época - Angular.js e Backbone. Procurando algo mais leve e fácil de aprender.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Por que utilizá-lo?:
 
-## Project Setup
+Ele se destaca por sua **curva de aprendizado suave**, ideal para iniciantes, e sua **flexibilidade**, logo, pode ser utilizado em partes de uma aplicação existente (daí o termo *progressivo*) ou para criar, do zero, uma aplicação completa. E também por sua **reatividade**, permitindo que a interface do usuário atualize automaticamente sempre que seus estados mudam.
 
-```sh
-npm install
-```
+Álem disso ele é Open Source, sendo disponibilizado sem retrições.
 
-### Compile and Hot-Reload for Development
+## Cenários não recomendados:
 
-```sh
-npm run dev
-```
+Abaixo estão os cenários onde o uso do Vue.js pode não ser recomendado, baseado em limitações técnicas e de ecossistema:
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- **Aplicações "Enterprise" de Altíssima Complexidade**: Embora o Vue possa lidar com grandes projetos (especialmente com Vue 3/Pinia), React e Angular possuem um ecossistema de terceiros mais maduro e maior adoção corporativa. Para aplicações com equipes gigantescas, a estrutura rigorosa do Angular ou a flexibilidade do React podem ser preferíveis.
+- **Desenvolvimento Nativo Mobile**: O Vue.js não possui um equivalente direto ao React Native (uma solução madura e oficial) para desenvolver aplicativos nativos. Embora existam alternativas como NativeScript-Vue, o ecossistema é menor e pode não estar pronto para produção em casos complexos.
+- **Projetos que Exigem Bibliotecas de Terceiros Muito Específicas:**: O Vue possui menos bibliotecas e plugins disponíveis do que React ou Angular. Se o projeto depender de integrações raras, você pode ter dificuldade em encontrar suporte nativo para Vue.
