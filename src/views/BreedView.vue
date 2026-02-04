@@ -88,5 +88,7 @@ button {
 
 img {
   width: 100%;
+  margin-bottom: 12px;
+  border-radius: 8px;
 }
 </style>
