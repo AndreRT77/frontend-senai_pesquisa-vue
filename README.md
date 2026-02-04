@@ -34,7 +34,7 @@ Abaixo estão os cenários onde o uso do Vue.js pode não ser recomendado, basea
 
 ### Como instalar o Vue.js
 
-Requisitos de ambiente
+## Requisitos de ambiente
 
 **Node.js**
 
