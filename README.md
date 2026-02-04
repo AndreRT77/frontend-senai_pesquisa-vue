@@ -32,9 +32,9 @@ Abaixo estão os cenários onde o uso do Vue.js pode não ser recomendado, basea
 - **Desenvolvimento Nativo Mobile**: O Vue.js não possui um equivalente direto ao React Native (uma solução madura e oficial) para desenvolver aplicativos nativos. Embora existam alternativas como NativeScript-Vue, o ecossistema é menor e pode não estar pronto para produção em casos complexos.
 - **Projetos que Exigem Bibliotecas de Terceiros Muito Específicas:**: O Vue possui menos bibliotecas e plugins disponíveis do que React ou Angular. Se o projeto depender de integrações raras, você pode ter dificuldade em encontrar suporte nativo para Vue.
 
-### Como instalar o Vue.js
+## Como instalar o Vue.js
 
-## Requisitos de ambiente
+### Requisitos de ambiente
 
 **Node.js**
 
