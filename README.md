@@ -2,9 +2,11 @@
 
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 
-![](./screenshots/home-preview.png)
+<img width="1917" height="917" alt="image" src="https://github.com/user-attachments/assets/29e40b51-dcd7-4909-94ca-0b0ecf59e672" />
 
-![](./screenshots/breed-search-preview.png)
+
+<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/14f2bad2-4827-4a52-a7ed-b6951a4a566e" />
+
 
 > A aplicação tem como finalidade a utilização do Framework Vue.js para a construção de um website que consuma a Dog API.
 
